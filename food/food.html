@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key="></script>
+<script src="food.js"></script>
+</head>
+	<body>
+		<a href="#" onclick="getLocation();">Get Location</a>
+		<div id="map" style="width:500px;height:380px;"></div>
+		<form method="get" id="chooseZip">
+			<button type="submit" class="learnButton">Use current location</button>
+			<button type="button" id="searchZip" class="learnButton">Search by Zip Code</button>
+			<div class="clear"></div>
+			<div class="zipSearch">
+				<input id="textZip" type="text" name="zip" placeholder="enter your zip code" autofocus>
+				<button type="submit" class="learnButton">Search</button>
+			</div>
+			<div class="clear"></div>
+		</form>
+	</body>
+</html>

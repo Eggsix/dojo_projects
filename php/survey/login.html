@@ -1,0 +1,16 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form aciton="valid.php" method="post">
+		<label>Name: <input type="text" name="name"></label>
+		<label>Password: <input type="text" name="password"></label>
+		<input type="hidden" name="action" value="register">
+		<input type="submit">
+	</form>
+</body>
+</html>
